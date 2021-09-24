@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'joeyaxtell-sample-website-app-service'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c3789a2b7479492f81f1f772c4d1b0b8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d26d0514bc3041febabe037c36aba2ca }}
         package: .
