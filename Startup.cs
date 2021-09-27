@@ -36,7 +36,7 @@ namespace PatraCorp_JoeyAxtell_20210922
                     await context.Response.WriteAsync("My Name is Joey Axtell and I'm applying for the Infrastructure Engineer Position. \n");
                     await context.Response.WriteAsync("This is a simple webpage deployed with Github Actions with the infrastructure created in Azure using Terraform Azure provider. \n");
                     await context.Response.WriteAsync("Thank you for considering me for the Infrastructure Engineer roles within your company. \n");
-                    await context.Response.WriteAsync("This is a test update. \n");                    
+ #                   await context.Response.WriteAsync("This is a test update. \n");                    
                 });
             });
         }
